@@ -140,7 +140,7 @@ class Date{
 					a._year++;
 					a._month%=12;
 				}
-			}
+				}
 				}
 			}
 			else{
@@ -181,7 +181,7 @@ class Date{
 		}
 };
 int main(){
-	Date d(2018,12,12),d1(2018,1,1);
-	(d-d1).outday(d,d1);
+	Date d(2018,12,31),d1(2019,1,1);
+	(d).outday(d,d1);
 	d.Display();
 }
